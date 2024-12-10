@@ -17,6 +17,25 @@
 * 阿里云折扣场：[点我进入](http://aly.ruoyi.vip)，腾讯云秒杀场：[点我进入](http://txy.ruoyi.vip)&nbsp;&nbsp;
 * 阿里云优惠券：[点我领取](https://www.aliyun.com/minisite/goods?userCode=brki8iof&share_source=copy_link)，腾讯云优惠券：[点我领取](https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=198c8df2ed259157187173bc7f4f32fd&from=console)&nbsp;&nbsp;
 
+## 开发
+
+```bash
+# 克隆项目
+git clone https://gitee.com/y_project/RuoYi-Vue
+
+# 进入项目目录
+cd ruoyi-ui
+
+# 安装依赖
+npm install
+
+# 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npmmirror.com
+
+# 启动服务
+npm run dev
+```
+
 ## 前端运行
 
 ```bash
